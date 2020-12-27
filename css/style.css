@@ -28,10 +28,10 @@ li{
 	background-size:100% 100%;
 	position: absolute;
 	margin-left: 42%;
-	margin-top: 22%;
+	margin-top: 20%;
 	-webkit-transform-style:preserve-3d;
 	-webkit-transform:rotateX(13deg);
-	-webkit-animation:move 5s linear infinite;
+	-webkit-animation:move 10s linear infinite;
 }
 .minbox{
 	width:100px;
@@ -82,6 +82,8 @@ li{
 }
 .maxbox li:nth-child(3){
 	background: url(../img/3.jpg) no-repeat 0 0;
+	background-color:#c5dadf;
+	background-position-x: 67px;
 	-webkit-transform:rotateX(-90deg) translateZ(50px);
 }
 .maxbox li:nth-child(4){
